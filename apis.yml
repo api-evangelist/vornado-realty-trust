@@ -1,7 +1,12 @@
 aid: vornado-realty-trust
-url: https://raw.githubusercontent.com/api-evangelist/vornado-realty-trust/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/vornado-realty-trust/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.vornado-realty-trust.com
+description: >-
+  Vornado Realty Trust is one of the largest owners and managers of commercial real
+  estate in the United States, with a portfolio concentrated in New York City office
+  and retail properties.
