@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.github.io/vornado-realty-trust/json-schema/vornado-property-schema.json",
+  "title": "Vornado Property",
+  "description": "Schema representing a Vornado Realty Trust commercial property asset.",
+  "type": "object",
+  "properties": {
+    "propertyId": {
+      "type": "string",
+      "description": "Unique identifier for the property."
+    },
+    "name": {
+      "type": "string",
+      "description": "Property name or building name."
+    },
+    "address": {
+      "type": "object",
+      "description": "Physical address of the property.",
+      "properties": {
+        "street": {"type": "string"},
+        "city": {"type": "string"},
+        "state": {"type": "string"},
+        "zipCode": {"type": "string"},
+        "country": {"type": "string", "default": "US"}
+      }
+    },
+    "propertyType": {
+      "type": "string",
+      "enum": ["office", "retail", "residential", "marketplace", "mixed-use"],
+      "description": "Category of the property."
+    },
+    "squareFootage": {
+      "type": "number",
+      "description": "Total rentable square footage."
+    },
+    "occupancyRate": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Current occupancy rate as a percentage."
+    },
+    "leedCertification": {
+      "type": "string",
+      "enum": ["Certified", "Silver", "Gold", "Platinum", "None"],
+      "description": "LEED green building certification level."
+    },
+    "energyStarCertified": {
+      "type": "boolean",
+      "description": "Whether the property holds ENERGY STAR certification."
+    },
+    "yearBuilt": {
+      "type": "integer",
+      "description": "Year the building was constructed."
+    },
+    "yearAcquired": {
+      "type": "integer",
+      "description": "Year Vornado acquired the property."
+    },
+    "borough": {
+      "type": "string",
+      "enum": ["Manhattan", "Brooklyn", "Queens", "Bronx", "Staten Island"],
+      "description": "New York City borough where the property is located."
+    },
+    "submarket": {
+      "type": "string",
+      "description": "NYC real estate submarket (e.g., Midtown, Penn Plaza, Times Square)."
+    }
+  }
+}

@@ -1,0 +1,91 @@
+vocabulary:
+  name: Vornado Realty Trust Vocabulary
+  description: >-
+    Key terms, concepts, and taxonomy for Vornado Realty Trust, a Fortune 500
+    real estate investment trust (REIT) focused on premier New York City
+    commercial office and retail properties.
+  version: '1.0'
+  created: '2026-05-03'
+  modified: '2026-05-03'
+  tags:
+    - Commercial Real Estate
+    - Fortune 500
+    - New York City
+    - REIT
+
+  domains:
+    - name: Real Estate Investment Trust
+      description: REIT structure and corporate concepts
+      terms:
+        - term: REIT
+          definition: Real Estate Investment Trust. A company that owns income-producing real estate and distributes at least 90% of taxable income to shareholders as dividends.
+        - term: FFO
+          definition: Funds From Operations. Key REIT performance metric calculated as net income plus depreciation minus gains on property sales.
+        - term: NAV
+          definition: Net Asset Value. The estimated value of a REIT's properties minus liabilities, used to assess intrinsic value.
+        - term: Cap Rate
+          definition: Capitalization Rate. Net operating income divided by property value, used to evaluate real estate investment returns.
+        - term: NOI
+          definition: Net Operating Income. Revenue from a property minus operating expenses, excluding depreciation and debt service.
+        - term: Occupancy Rate
+          definition: The percentage of rentable space currently leased to tenants.
+        - term: Same-Store NOI
+          definition: NOI growth comparison for properties owned for the same period in consecutive years, excluding acquisitions and dispositions.
+
+    - name: Property Types
+      description: Categories of real estate assets in Vornado's portfolio
+      terms:
+        - term: Class A Office
+          definition: Premium office buildings with high-quality finishes, amenities, and locations commanding above-market rents.
+        - term: Street Retail
+          definition: Ground-floor retail space on major urban thoroughfares, particularly Manhattan high streets.
+        - term: Residential
+          definition: Apartment units or condominium properties within mixed-use or standalone residential buildings.
+        - term: Marketplace
+          definition: Large enclosed or open retail/food market spaces, such as the Farley Building retail portion.
+        - term: Mixed-Use
+          definition: Properties combining office, retail, residential, or other uses in a single development.
+        - term: Penn District
+          definition: Vornado's concentrated office portfolio in the Penn Plaza / Pennsylvania Station area of Midtown Manhattan.
+
+    - name: Sustainability
+      description: Environmental and sustainability certifications
+      terms:
+        - term: LEED
+          definition: Leadership in Energy and Environmental Design. Green building certification system with levels Certified, Silver, Gold, and Platinum.
+        - term: ENERGY STAR
+          definition: EPA certification for buildings in the top 25% for energy efficiency.
+        - term: GRESB
+          definition: Global Real Estate Sustainability Benchmark. Annual assessment of ESG performance of real estate portfolios.
+        - term: Carbon Neutral
+          definition: Achieving net-zero carbon emissions by reducing and offsetting greenhouse gas emissions.
+
+    - name: Leasing
+      description: Tenant and leasing concepts
+      terms:
+        - term: Anchor Tenant
+          definition: A major tenant whose presence attracts other tenants and customers to a property.
+        - term: NNN Lease
+          definition: Triple Net Lease. Tenant pays base rent plus property taxes, insurance, and maintenance.
+        - term: Lease Expiration
+          definition: The scheduled end date of a tenant's lease agreement.
+        - term: Tenant Improvement
+          definition: Renovations or improvements made to a rental space to meet tenant specifications.
+        - term: Rentable Square Feet
+          definition: Total leasable area including tenant space and a pro-rata share of common areas.
+
+    - name: Financial
+      description: Financial and capital markets concepts
+      terms:
+        - term: Dividend Yield
+          definition: Annual dividend payment per share divided by share price.
+        - term: Debt-to-Equity Ratio
+          definition: Measure of financial leverage comparing total liabilities to shareholder equity.
+        - term: Securitization
+          definition: Pooling of mortgage loans into securities sold to investors.
+        - term: 10-K
+          definition: Annual report filed with the SEC providing comprehensive company financial information.
+        - term: 10-Q
+          definition: Quarterly report filed with the SEC providing unaudited financial statements.
+        - term: 8-K
+          definition: Current report filed with the SEC to announce major events affecting the company.

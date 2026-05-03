@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "vno": "https://www.vno.com/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "gr": "http://purl.org/goodrelations/v1#",
+
+    "RealEstateOrganization": "https://schema.org/Organization",
+    "RealEstateListing": "https://schema.org/RealEstateListing",
+    "Place": "https://schema.org/Place",
+    "PostalAddress": "https://schema.org/PostalAddress",
+
+    "vno:ticker": {"@type": "xsd:string"},
+    "vno:exchange": {"@type": "xsd:string"},
+    "vno:propertyType": {"@type": "xsd:string"},
+    "vno:squareFootage": {"@type": "xsd:decimal"},
+    "vno:occupancyRate": {"@type": "xsd:decimal"},
+    "vno:leedCertification": {"@type": "xsd:string"},
+    "vno:marketSegment": {"@type": "xsd:string"},
+
+    "Corporation": "https://schema.org/Corporation",
+    "tickerSymbol": "https://schema.org/tickerSymbol",
+    "foundingDate": "https://schema.org/foundingDate",
+    "numberOfEmployees": "https://schema.org/numberOfEmployees",
+    "address": "https://schema.org/address",
+    "url": "https://schema.org/url"
+  },
+  "@graph": [
+    {
+      "@id": "https://www.vno.com/",
+      "@type": ["Corporation", "RealEstateOrganization"],
+      "name": "Vornado Realty Trust",
+      "description": "Fully integrated REIT focused on premier New York City office and Manhattan street retail properties.",
+      "tickerSymbol": "VNO",
+      "vno:exchange": "NYSE",
+      "url": "https://www.vno.com/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "888 Seventh Avenue",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10019",
+        "addressCountry": "US"
+      },
+      "vno:marketSegment": "Commercial Real Estate",
+      "vno:propertyType": "Office, Retail, Residential"
+    }
+  ]
+}
