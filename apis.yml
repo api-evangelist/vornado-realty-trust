@@ -24,6 +24,8 @@ created: '2025-02-08'
 modified: '2026-05-03'
 position: Consumer
 common:
+  - type: DomainSecurity
+    url: security/vornado-realty-trust-domain-security.yml
   - url: https://www.vno.com/
     name: Vornado Realty Trust Website
     type: Website
