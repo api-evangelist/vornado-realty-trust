@@ -1,7 +1,9 @@
 ---
 title: Vornado Realty Trust Boosts Tenant Response Times with ...
 url: https://www.linkedin.com/posts/james-shaw-32260727_vornado-realty-trust-answers-tenants-30-activity-7434890584147795968-5_a7
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Vornado Realty Trust" press release artificial intelligence'
 position: 1
 source: serpapi-google
